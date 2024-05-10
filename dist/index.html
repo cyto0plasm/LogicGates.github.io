@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://circuitverse.org/assets/homepage/combinations%20analysis-0998259ff3f76fb666da45ef6b9cca15503940bcbae7f900778b5b27301ebeb8.png"
+    />
+    <title>Logic Gates</title>
+  </head>
+  <body>
+    <!--------------- navbar Start --------------->
+    <nav
+      id="nav"
+      class="mx-auto pr-4 pl-2 sm:px-2 md:px-6 lg:px:8 bg-[#273430] text-white"
+    >
+      <div class="flex flex-row item-center justify-between">
+        <!------------ search ------------->
+        <div
+          id="search"
+          class="flex flex-nowrap items-center md:w-[300px] sm:w-[200px]"
+        >
+          <button id="search-btn" class="py-3 px-2">
+            <img src="img/search-line.png" alt="search" />
+          </button>
+          <input
+            id="search-input"
+            class="bg-[#273430] hidden absolute px-[1rem] py-[1.8rem] md:p-0 md:static md:flex"
+            type="search"
+            placeholder="Search Here"
+          />
+        </div>
+        <!------------ Logo ------------>
+        <div
+          class="lg:mx-[auto] md:mx-[0] lg:pl-[8rem] md:pl-[0rem] md:pr-0 sm:pl-0 sm:mr-[10rem] flex shrink-0"
+        >
+          <!------ logo img ------>
+          <img
+            id="logo"
+            width="100px"
+            height="80px"
+            src="img/logo.png"
+            alt="EL-HATTABA"
+          />
+        </div>
+        <!------------- menu icon ------------->
+
+        <!-- mobile navbar buttons  -->
+        <div id="menu">
+          <button id="mobile-btn" class="md:hidden pt-[1rem]">
+            <img src="img/menu-line.png" alt="Menu" />
+          </button>
+          <div class="md:hidden" id="mobile-menu">
+            <div class="flex flex-col items-end font-bold drop-shadow-2xl">
+              <a
+                href="/dist/index.html"
+                class="w-[12rem] py-[.7rem] px-[1rem] hover:bg-[#617878] active:text-[#73dede]"
+                >Home</a
+              >
+              <a
+                href="/dist/pages/Gates.html"
+                class="w-[12rem] py-[.7rem] px-[1rem] hover:bg-[#617878] active:text-[#73dede]"
+                >Gates</a
+              >
+              <a
+                href="/dist/pages/Project.html"
+                class="w-[12rem] py-[.7rem] px-[1rem] hover:bg-[#617878] active:text-[#73dede]"
+                >Project</a
+              >
+              <a
+                href="/dist/pages/Team.html"
+                class="w-[12rem] py-[.7rem] px-[1rem] hover:bg-[#617878] active:text-[#73dede]"
+                >Team</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--------------- buttons lg screen --------------->
+        <div
+          id="nav-btns"
+          class="hidden md:flex flex-row items-center gap-4 font-mono tracking-wide"
+        >
+          <a
+            href="index.html"
+            class="text-lg font-bold tracking-widest h-8 px-3 py-1"
+            >Home</a
+          >
+          <a
+            href="/dist/pages/Gates.html"
+            class="text-lg font-bold tracking-widest h-8 px-3 py-1"
+            >Gates</a
+          >
+          <a
+            href="/dist/pages/Project.html"
+            class="text-lg font-bold tracking-widest h-8 px-3 py-1"
+            >Project</a
+          >
+          <a
+            href="/dist/pages/Team.html"
+            class="text-lg font-bold tracking-widest h-8 pr-4 px-3 py-1"
+            >Team</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--------------- navbar End --------------->
+    <!---------------------------- body Start ---------------------------->
+
+    <section id="sec" class="flex flex-col lg:w-[70%] md:w-[90%] sm:w-[95%]">
+      <h1 class="mt-7 mb-5 text-center text-2xl font-bold">
+        What is Logic Gates
+      </h1>
+      <div id="body" class="leading-relaxed">
+        <p
+          class="h-[auto] mx-[4rem] my-3 text-justify overflow-hidden text-[1.3rem] font-medium"
+        >
+          say you're living out on a farm, and you've got a bunch of chickens to
+          tend to on a nice plot of land. Each morning you wake up, open the
+          gate to your farm, and let your chickens loose out in your pasture.
+          This gate is your method of controlling the flow of chickens into and
+          out of your farm and helps you to meet your goals of having happy and
+          healthy creatures that continue laying eggs for years on end.
+        </p>
+        <p
+          class="h-[auto] mx-[4rem] my-3 text-justify overflow-hidden text-[1.3rem] font-medium"
+        >
+          In a computer, we can also use a gate to control a flow and achieve an
+          end goal, but instead of chicke ns, we control the flow of an electric
+          current,Logic Gate is a device that acts as a building block for
+          digital circuits. it performs basic logical functions that are
+          fundamental to digital circuits.
+        </p>
+      </div>
+      <!-- -----CPU----- -->
+      <div class="hr"></div>
+
+      <div class="mb-[6rem]" id="cpu-contant">
+        <h2 class="mt-3 mb-5 text-center text-3xl font-bold">Contant</h2>
+        <p class="py-[2rem] mx-[auto] my-4 text-justify text-[1.3rem] w-[90%]">
+          Wherever you look in the world of digital electronics, you've got
+          logic gates at play, doing all of the heavy mathematical lifting to
+          make some amazing things happen.The production of ICs continued to
+          advance though, soon cramming in 4,800 transistors in the first
+          microprocessor in 1974 made by Intel. Today, we're in the age of very
+          large-scale integrated (VLSI) ICs, which can pack in millions and even
+          billions of transistors into one tiny package
+        </p>
+        <img
+          class="w-[85%] m-[auto] my-3"
+          src="/dist/img/cpu-c.jpeg"
+          alt="CPU"
+        />
+        <div class="hr"></div>
+      </div>
+
+      <!--------Borg ALarab card -------->
+      <div
+        id="borg"
+        class="sm:mx-[1rem] my-[2rem] justify-center items-center flex flex-col lg:flex-row lg:w-[85%] lg:h-[300px]"
+      >
+        <img
+          class="w-[80%] md:w-[80%] lg:w-[40%] mx-4 my-6"
+          src="img/Borg-Al-Arab.png"
+          alt="Logic Gates Symbols"
+        />
+        <div id="card-contant">
+          <p
+            class="max-h-[200px] lg:mx-4 m-4 px-3 sm:w-[80%] mx-[auto] lg:px-0 lg:py-2 text-justify overflow-hidden text-[1.3rem]"
+          >
+            on this website we are going to dive in these gates in purpose of
+            understanding it in a simple and easy way, Made by the students of
+            Borg Al-Arab Technological University.
+          </p>
+          <a
+            href="https://www.autodesk.com/products/fusion-360/blog/you-shall-not-pass-how-logic-gates-work-in-digital-electronics/"
+            class="hidden lg:w-[200px] w-[80%] text-center sm:w-[80%] sm:mx-[auto] lg:mx-8 mb-4 sm:text-center font-bold"
+          >
+            Borg Al-Arab Website</a
+          >
+        </div>
+      </div>
+      <div class="hr"></div>
+      <h2 class="font-mono text-[2rem]">Rate our Website</h2>
+      <div class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <div
+        id="tags"
+        class="flex flex-col w-[90%] mx-[auto] pl-[3rem] pt-[5rem]"
+      >
+        <h3 class="text-[#48c5a5] text-[2rem]">Tags and Categories</h3>
+        <ul>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Electronics Engineer</a></li>
+          <li><a href="#">Electronics Engineering</a></li>
+        </ul>
+      </div>
+    </section>
+    <hr />
+    <!--------------- body End --------------->
+    <!-- -----------Footer Start----------- -->
+
+    <!-- Names Start-------------- -->
+    <footer class="bg-[#273430] text-white py-[20px]">
+      <div class="flex flex-row justify-around leading-relaxed">
+        <div id="leader">
+          <h3 class="font-bold text-[1rem] text-[#75d8bc]">Leader</h3>
+          <h2 class="">Mohamed Elsify</h2>
+        </div>
+        <div id="emplementers">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">
+            Project Implementers
+          </h2>
+          <ul type="1">
+            <li>Osama Hamada</li>
+            <li>Esraa Fayez</li>
+            <li>Kero</li>
+            <li>Mohamed Abo Arab</li>
+            <li>Rehab</li>
+          </ul>
+        </div>
+        <div id="Website">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">Website</h2>
+          <ul type="1">
+            <li>Aya</li>
+            <li>Donia</li>
+            <li>Kareem</li>
+            <li>Mahmoud Al-Amouri</li>
+            <li>Yousif Zaki</li>
+          </ul>
+        </div>
+        <div id="catalog">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">Catalog</h2>
+          <ul type="1">
+            <li>Emaan Amr</li>
+            <li>Mohamed Ebrahim</li>
+          </ul>
+        </div>
+        <div id="Video ">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">Video</h2>
+          <ul type="1">
+            <li>Asmaa</li>
+          </ul>
+        </div>
+        <!-- Names End-------------- -->
+
+        <!-- Social Media  Start------------->
+        <div class="w-[180px]" id="social">
+          <img width="80px" height="80px" src="img/logo.png" alt="Logo" />
+          <div class="flex flex-row justify-around">
+            <a href="#"
+              ><img src="img/youtube-line.png" width="30px" alt="Youtube"
+            /></a>
+            <a href="#"
+              ><img
+                src="img/facebook-circle-line.png"
+                width="30px"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="img/instagram-line.png" width="30px" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="img/twitter-x-line (1).png" width="30px" alt="Twitter"
+            /></a>
+          </div>
+        </div>
+        <!-- Social Media  End------------->
+      </div>
+    </footer>
+    <!-- -----------Footer End----------- -->
+  </body>
+  <script src="script.js"></script>
+</html>
