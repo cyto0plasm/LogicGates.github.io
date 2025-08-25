@@ -74,12 +74,12 @@
       <div class="flex flex-row justify-around">
         <a href="https://www.youtube.com/@yousifzaky3661 " target="_blank"
           ><img src="${ROOT}img/youtube-line.png" width="30px" alt="Youtube" />
+<a href="https://www.linkedin.com/in/youssef-zakiz" target="_blank" rel="noopener noreferrer">
+  <img src="${ROOT}img/linkedin (1).png" width="30px" alt="LinkedIn" style="filter: brightness(0) invert(1);" />
 </a>
-        <a href="www.linkedin.com/in/youssef-zakiz" target="_blank"
-          ><img src="${ROOT}img/linkedin (1).png" width="30px" alt="Facebook" style="filter: brightness(0) invert(1);" />
-       
+
 </a>
-        <a href="https://github.com/cyto0plasm"
+        <a href="https://github.com/cyto0plasm" target="_blank"
           ><img src="${ROOT}img/git.png" width="30px" alt="GitHub" style="filter: brightness(0) invert(1);"/>
 </a>
       </div>
