@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/docs/styles/styles.css" />
+    <link rel="stylesheet" href="/docs/output.css" />
+    <link rel="stylesheet" href="/docs/pages/Gates.css" />
+    <!-- <script src="../../../flowbite.js"></script>
+    <script src="../../../tailwind.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.png" />
+    <title>Logic Gates/Calculator</title>
+  </head>
+  <body>
+    <script src="/docs/pages/components/component.js"></script>
+    <my-header></my-header>
+
+    <section
+      id="Container"
+      class="w-auto h-[500px] mb-[50vh] flex gap-[30px] flex-row justify-center align-middle bg-gradient-to-br from-orange-50 via-white to-orange-50"
+    >
+      <div
+        id="left"
+        class="w-[25%] flex flex-col gap-4 border-2 border-black rounded-[15px]"
+      >
+        <h1 id="GateTitle" class="text-3xl font-bold text-slate-800">
+          Logic Lap
+        </h1>
+        <ul id="GatesNav">
+          <li>AND Gate</li>
+        </ul>
+      </div>
+      <div id="GatesCalculator" class="w-[70%]">
+        <form action="" class="" id="right">
+          <label for="LogicGatesPick">Pick A Gate</label>
+          <input type="checkbox" />
+        </form>
+      </div>
+    </section>
+
+    <script src="/docs/scripts/script.js"></script>
+    <script src="/docs/pages/components/component-footer.js"></script>
+    <my-footer></my-footer>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "content": [
+        "./*.html",
+        "./src/**/*.{html,js}"
+    ],
+    "theme": {
+        "extend": {
+            "colors": {
+                "primary": "#4ade80",
+                "secondary": "#22c55e",
+                "accent": "#16a34a"
+            }
+        }
+    }
+}
